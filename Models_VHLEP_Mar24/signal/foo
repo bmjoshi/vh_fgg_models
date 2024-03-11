@@ -1,0 +1,7 @@
+for i in 0 1 2 3; do
+   hadd CMS-HGG_sigfit_packaged_RECO_WH_LEP_Tag$i\.root CMS-HGG_sigfit_packaged_RECO_WH_LEP_Tag$i\_2016postVFP.root CMS-HGG_sigfit_packaged_RECO_WH_LEP_Tag$i\_2016preVFP.root CMS-HGG_sigfit_packaged_RECO_WH_LEP_Tag$i\_2017.root CMS-HGG_sigfit_packaged_RECO_WH_LEP_Tag$i\_2018.root
+done
+
+for i in 0 1; do
+   hadd CMS-HGG_sigfit_packaged_RECO_ZH_LEP_Tag$i\.root CMS-HGG_sigfit_packaged_RECO_ZH_LEP_Tag$i\_2016postVFP.root CMS-HGG_sigfit_packaged_RECO_ZH_LEP_Tag$i\_2016preVFP.root CMS-HGG_sigfit_packaged_RECO_ZH_LEP_Tag$i\_2017.root CMS-HGG_sigfit_packaged_RECO_ZH_LEP_Tag$i\_2018.root
+done
