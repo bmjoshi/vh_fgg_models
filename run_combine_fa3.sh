@@ -1,6 +1,6 @@
 ext="2024_06_01"
 tag="Mar24_noSM"
-eosdir="/eos/user/b/bjoshi/www/VHAnomalous/01_06_2024/new_combine_plots/"
+eosdir="eosdir"
 
 year="combined"
 
